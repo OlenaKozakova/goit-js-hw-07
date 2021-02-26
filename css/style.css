@@ -1,6 +1,4 @@
 :root {
-  --main-color: #757575;
-  --white: #ffffff;
   --dark-color: #212121;
   --button-bcg-color: #2196f3;
   --dark-bcg: #2f303a;
@@ -98,4 +96,33 @@ h3 {
   padding-bottom: 40px;
   width: 53%;
   margin-left: auto;
+}
+
+#name-output {
+  color: #811485;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+#text {
+  color: #07cf22;
+}
+
+.block-item {
+  display: inline-block;
+  margin-top: 20px;
 }

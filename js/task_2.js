@@ -24,3 +24,5 @@ const makeIngredientsItemOption = newIngredients => {
 const ingredientsItem = makeIngredientsItemOption(ingredients);
 
 ingredientsListRef.append(...ingredientsItem);
+
+
